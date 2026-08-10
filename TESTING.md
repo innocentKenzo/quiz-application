@@ -47,3 +47,19 @@ The Previous button was clicked while on Question 1.
 **Result:** Passed
 
 The application correctly remained on Question 1 because there was no previous question.
+
+## Bug Found and Fixed
+
+### Bug: Selected Answer Was Difficult to See
+
+During testing, a selected answer option was not clearly visible because the selected option did not have sufficient visual styling.
+
+**Fix:**
+
+CSS styling was added for the selected option so that the selected answer is clearly highlighted.
+
+**Result:**
+
+After the fix, selected answers are clearly visible to the user.
+
+**Status:** Fixed and retested successfully.
